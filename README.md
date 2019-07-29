@@ -1,12 +1,10 @@
  <h1> Android Mobile Application Game </h1>
  
-<b>:star:	:rocket: iSpace :rocket: :star: <br> <br>
+<b>:star:	:rocket: iSpace :rocket: :star: <br>
 :copyright:  Sapir Abuksis & Alexey Shpigelman & Yoav Keren </b> :copyright:	<br>
 
 Developing a game in an Android environment using OOP in JAVA. <br>
 The game was developed, designed and implemented using SQLite, Multithreading, Animations, Adapters, Intents, Services. <br>
-Has experience in designing user interface (UI Design) and user experience (UX Design).
-
 <b> Here you can find a summary of our project: </b> <br>
 https://youtu.be/zrCScYq1JCA<br>
 
