@@ -4,7 +4,7 @@
 :copyright:  Sapir Abuksis & Alexey Shpigelman & Yoav Keren </b> :copyright:	<br>
 
 Developing a game in an Android environment using OOP in JAVA. <br>
-The game was developed, designed and implemented using SQLite, Multithreading, Animations, Adapters, Intents, Services. <br>
+The game was developed, designed and implemented using SQLite, Multithreading, Animations, Adapters, Intents, Services. <br> <br>
 <b> Here you can find a summary of our project: </b> <br>
 https://youtu.be/zrCScYq1JCA<br>
 
