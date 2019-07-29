@@ -1,6 +1,6 @@
  <h1> Android Mobile Application Game </h1>
  
-<b>:star:	:rocket: iSpace :rocket: :star: <br>
+                    <b>:star:	:rocket: iSpace :rocket: :star: <br>
 :copyright:  Sapir Abuksis & Alexey Shpigelman & Yoav Keren </b> :copyright:	<br>
 
 Developing a game in an Android environment using OOP in JAVA. <br>
@@ -8,11 +8,11 @@ The game was developed, designed and implemented using SQLite, Multithreading, A
 <b> Here you can find a summary of our project: </b> <br>
 https://youtu.be/zrCScYq1JCA<br>
 
-<h1>WHAT IS THE PURPOSE OF THE GAME?</h1>
+<h1>What is the purpose of the game?</h1>
 Swipe your finger to guide a spaceship in the galaxy to avoid asteroids and collect coins.<br>
 Try to collect as many coins as possible. Get additional bombs and challenge your friends with your best high score!<br>
 
-<h1>WHAT CAN WE DO IN THIS APP? </h1>
+<h1>What can we do in this app? </h1>
 :rocket:	Play 3 kinds of game! (FreeStyle, Faster and Getting Sick)  <br>
 :memo:	Dialogs instructions in the entire game! <br>
 :floppy_disk:	Save your score to table High Score! <br>
