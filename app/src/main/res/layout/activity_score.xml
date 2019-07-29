@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HighScoreActivity"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:id="@+id/container_high_score_activity">
+
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/viewKonfetti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/title_high_score">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/high_score"
+            android:textColor="@color/whiteColor"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/animation_star_view"
+                android:src="@drawable/frame_animation_stars"/>
+
+            <Button
+                android:id="@+id/btn_top_free_style"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:text="@string/free_style"
+                android:textSize="25sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:backgroundTint="@color/perpelColor"/>
+
+            <Button
+                android:id="@+id/btn_top_faster"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:textSize="25sp"
+                android:text="@string/faster"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:backgroundTint="@color/pinkColor"/>
+
+            <Button
+                android:id="@+id/btn_top_getting_sick"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:textSize="25sp"
+                android:text="@string/getting_sick"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:backgroundTint="@color/pinkDarkColor"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

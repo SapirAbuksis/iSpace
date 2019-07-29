@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/colorLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorLayout1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:paddingStart="9dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="6dp"
+                android:paddingBottom="5dp"
+                android:text="@string/score"
+                android:textColor="@color/whiteColor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/score_value"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="0000"
+                android:textColor="@color/pinkDarkColor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/icon_animation_coin"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_coin"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:id="@+id/coins_value"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/layout_ripple_white"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/pinkDarkColor"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_weight="3"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <com.hit.ispace.LevelView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/levelview"/>
+</RelativeLayout>

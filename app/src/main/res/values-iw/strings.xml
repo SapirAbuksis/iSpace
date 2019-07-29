@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iSpace</string>
+    <string name="one_player">שחק</string>
+    <string name="settings">הגדרות</string>
+    <string name="setting_sound">סאונד</string>
+    <string name="setting_music">מוזיקה</string>
+    <string name="ok">אוקיי</string>
+    <string name="info">החלק את האצבע שלך כדי להכווין חללית בחלל להתחמק מאסטרואידים ולאסוף מטבעות. נסה לאסוף כמה שיותר מטבעות. קח אלמנטים ואתגר חברים עם התוצאת שיא שלך!\n\n תהנה!!!</string>
+    <string name="game_over">סיום המשחק</string>
+    <string name="high_score">תוצאת שיא</string>
+    <string name="user_name">שם</string>
+    <string name="score">מרחק שעברת</string>
+    <string name="text_user_score">המרחק שעברתי הוא:</string>
+    <string name="new_high_score">תוצאת שיא חדשה!!!</string>
+    <string name="in_top_15">אתה ב-15 הראשונים המובילים</string>
+    <string name="save">שמור</string>
+    <string name="free_style">סגנון חופשי</string>
+    <string name="faster">מהר יותר</string>
+    <string name="getting_sick">כאב ראש</string>
+    <string name="msg_yes">כן</string>
+    <string name="msg_no">לא</string>
+    <string name="space_shop">חנות החלליות</string>
+    <string name="level">שלב:</string>
+    <string name="info_about_coins">יש לך:</string>
+    <string name="are_you_sure_buy">האם אתה בטוח שאתה רוצה לרכוש חללית זו?</string>
+    <string name="are_you_sure_select">האם אתה בטוח שאתה רוצה להשתמש בחללית זו?</string>
+    <string name="comment">אם תלחץ "כן", אתה תתחיל עם חללית זו במשחק הבא שלך</string>
+    <string name="you_already">חללית זו כבר באוסף שלך</string>
+    <string name="buy_now">קנה עכשיו!</string>
+    <string name="swipe_more">החלק כדי לראות חלליות נוספות</string>
+    <string name="success_buying">נרכש בהצלחה</string>
+    <string name="no_success">משהו השתבש</string>
+    <string name="success_adding">נוסף בהצלחה</string>
+    <string name="success_update">העדכון הצליח</string>
+    <string name="cant_buy">אין לך מספיק מטבעות כדי לקנות חללית זו</string>
+    <string name="use_this_space">השתמש</string>
+    <string name="text_send_whatsapp_1">המרחק שעברתי הוא </string>
+    <string name="text_send_whatsapp_2">מטר באפליקציית ispace. בוא נראה אם תוכל לעקוף את תוצאת השיא שלי.</string>
+    <string name="msg_error_save_score">אתה חייב לרשום את שמך כדי לשמור את השיא שלך!</string>
+    <string name="cant_do_nothing">זוהי החללית הנוכחית שלך</string>
+    <string name="instructions">הוראות</string>
+    <string name="instructions_content">החלק שמאלה וימינה כדי להזיז את החללית.\nשים לב, אלמנטים נופלים על המסך. אתה צריך לקחת אותם או להתחמק מהם.</string>
+    <string name="elements">האלמנטים:</string>
+    <string name="inst_coin">קבל 3/5/7 מטבעות (סגנון חופשי,מהר יותר,כאב ראש) לכל מטבע שתאסוף.</string>
+    <string name="inst_good_bomb">מוחק אלמנט אקראי.</string>
+    <string name="inst_ufo">גונב 3 מטבעות מאוסף המטבעות שלך. </string>
+    <string name="inst_dead_asteroid">גורם למשחק להסתיים.</string>
+    <string name="inst_bad_bomb">גורם למשחק להסתיים ומפחיתה מחצית מהמטבעות שאספת. </string>
+    <string name="good_luck">בהצלחה :)</string>
+    <string name="dont_remember">אל תזכיר לי שוב</string>
+    <string name="doubleClickExit">לחיצה כפולה אחורה כדי לצאת</string>
+    <string name="msg_lose">אופס, התוצאה שלך לא מספיקה ל15 הגדולים. אולי בפעם הבאה :)</string>
+    <string name="text_user_coin">מטבעות שנאספו</string>
+
+</resources>

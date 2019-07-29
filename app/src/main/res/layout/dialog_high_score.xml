@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".HighScoreActivity">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/layout_ripple_dialog_score">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_over"
+            android:textColor="@color/blackColor"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textSize="24sp"
+            android:layout_marginTop="70dp"/>
+
+        <TextView
+            android:id="@+id/text_msg_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_high_score"
+            android:textColor="@color/pinkDarkColor"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_skeleton1"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="215dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_user_coin"
+                android:textColor="@color/blackColor"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/user_coin"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:fontFamily="casual"
+                android:textColor="@color/blackColor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:id="@+id/icon_animation_coin"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_coin"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="265dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_user_score"
+            android:textColor="@color/blackColor"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/user_score"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:fontFamily="casual"
+            android:textColor="@color/blackColor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="315dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:fontFamily="casual"
+            android:textColor="@color/pinkDarkColor"
+            android:background="@drawable/layout_ripple_white"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:textColor="@color/whiteColor"
+            android:background="@drawable/scope_button_blue"
+            android:text="@string/save"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btn_start_again"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_repeat" />
+
+        <ImageButton
+            android:id="@+id/btn_sharing_in_whatsapps"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_share" />
+
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_home"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
